@@ -1,0 +1,28 @@
+{
+  "name": "react-signo",
+  "version": "1.0.0",
+  "description": "Mark your work with a \"made with love\" signo 👨‍🎨",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "precommit": "pretty-quick --staged"
+  },
+  "author": "@kristof0425",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-info": "^3.4.8",
+    "@storybook/react": "^3.4.8",
+    "babel-core": "^6.26.3",
+    "husky": "^0.14.3",
+    "prettier": "1.13.6",
+    "pretty-quick": "^1.6.0",
+    "react-dom": "^16.4.1"
+  },
+  "dependencies": {
+    "@storybook/addon-centered": "^3.4.8",
+    "glamorous": "^4.13.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1"
+  }
+}
